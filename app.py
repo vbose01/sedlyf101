@@ -29,13 +29,13 @@ def diabetes():
 def breast():
     return render_template("heart.html")
 
-@app.route("/covid-19")
+@app.route("/melanoma")
 def covid():
-    return render_template("covid.html")
+    return render_template("melanoma.html")
 
-@app.route("/malaria")
+@app.route("/breast-cancer")
 def malaria():
-    return render_template("malaria.html")
+    return render_template("breast.html")
 
 
 @app.route("/diabetesresult", methods=["POST"])
@@ -67,7 +67,7 @@ def heart_result():
         result = "You're safe! There's a low chance you have a heart disease. But it's still good to stay away from oily food!"
         message = "Congratulations!"
 
-    return render_template("heart-result.html", prediction = result, alert = message)
+    return render_template("heart-result.html", prediction = result, alert = message=)
 
 
 if __name__ == ("__main__"):

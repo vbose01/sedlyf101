@@ -24,14 +24,14 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/diabetes">Diabetes</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/heart">Heart</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/breast-cancer">Breast Cancer</a>
               </li>
               <li class="nav-item">
@@ -42,9 +42,9 @@
   </nav>
 
   <!-- FORM -->
-  <h1 style="text-align:center; margin-top:5rem">Diabetes Prediction</h1>
+  <h1 style="text-align:center; margin-top:5rem">Melanoma Prediction</h1>
   <h5 style="text-align:center;">Please enter the patient details</h5>
-  <form action="{{url_for('diabetes_result')}}" method="post" class="form-inline">
+  <form action="{{ url_for('diabetes')}}" method="post" class="form-inline">
       <fieldset>
           <div class="tabcontent" id="new">
                <div class="form-group">
@@ -69,7 +69,7 @@
                 </div>
                 <div class="form-group">
                   <label for="bmi">Body Mass Index (kg/m²)</label>
-                  <input class="form-control" type="text" name="bmi" placeholder="eg. 23.1" required="required"/>
+                  <input class="form-control" type="number" name="bmi" placeholder="eg. 23.1" required="required"/>
                 </div>
                 <div class="form-group">
                   <label for="dpf">Diabetes Pedigree Function</label>
@@ -85,8 +85,6 @@
           </div>
       </fieldset>
     </form>
-
-    {{ result }}
 
 
 </body>
