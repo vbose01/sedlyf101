@@ -1,0 +1,48 @@
+#hero
+{
+    height: 100vh;
+}
+
+.about-white
+{
+    padding: 60px 150px;
+    text-align: center;
+    background-color: #fff;
+    color: black;
+}
+
+.about-black
+{
+    padding: 60px 150px;
+    text-align: center;
+    background-color: #2596be;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.btn > a
+{
+    color: white;
+}
+
+.fieldset
+{
+	margin-top: 3%;
+	margin-left: 0%;
+	margin-right: 0%;
+	padding: 30px;
+	border-width: 25px;
+	border-style: ridge;
+	border-color: #257a7a;
+	box-shadow: 6px 13px 13px 0px black;
+	background-color: #ebfffa;
+}
+
+form {
+	margin: 3% 21% 10% 29% ;
+ 
+}

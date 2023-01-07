@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../static/styles.css">
+
+    <title>Disease Predictor</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><strong> Disease Predictor</strong></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/diabetes">Diabetes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/heart">Heart</a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+    <section id="hero">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="../static/image-from-rawpixel-id-2285047-original.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Disease Predictor</h1>
+                <p class="lead">
+                    Detect multiple diseases from your home.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <!-- <label for="file-upload" class="btn btn-dark btn-lg px-4 me-md-2">
+                        Upload Photo
+                    </label>
+                    <input id="file-upload" type="file"> -->
+
+                    <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">
+                      <a href="#about">Welcome</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+  <!-- ABOUT THE DISEASES -->
+    
+    <section id="about">
+      <div class="about-black malaria">
+        <h1>Malaria</h1>
+        <h5>Malaria is an acute febrile illness caused by Plasmodium parasites, which are spread to people through the bites of infected female Anopheles mosquitoes. It is preventable and curable.</h5>
+        <p>
+          Malaria is a life-threatening disease primarily found in tropical countries. It is both preventable and curable. However, without prompt diagnosis and effective treatment, a case of uncomplicated malaria can progress to a severe form of the disease, which is often fatal without treatment.
+          <br>
+          This risk of infection is higher in some areas than others depending on multiple factors, including the type of local mosquitoes. It may also vary according to the season, the risk being highest during the rainy season in tropical countries. 
+        </p>
+        <h3>Symptoms</h3>
+        <p>
+          The first symptoms of malaria usually begin within 10–15 days after the bite from an infected mosquito. Fever, headache and chills are typically experienced, though these symptoms may be mild and difficult to recognize as malaria. In malaria endemic areas, people who have developed partial immunity may become infected but experience no symptoms (asymptomatic infections).
+          <br><br>
+          WHO recommends prompt diagnosis for anyone with suspected malaria. If Plasmodium falciparum malaria is not treated within 24 hours, the infection can progress to severe illness and death. Severe malaria can cause multi-organ failure in adults, while children frequently suffer from severe anaemia, respiratory distress or  cerebral malaria. Human malaria caused by other Plasmodium species can cause significant illness and occasionally life-threatening disease.
+        </p>
+      </div>
+      <div class="about-white diabetes">
+        <h1>Diabetes</h1>
+        <h5>Diabetes is a chronic disease that occurs either when the pancreas does not produce enough insulin or when the body cannot effectively use the insulin it produces. Insulin is a hormone that regulates blood glucose.</h5>
+        <p>
+          Type 2 diabetes (formerly called non-insulin-dependent, or adult-onset) results from the body’s ineffective use of insulin. More than 95% of people with diabetes have type 2 diabetes. This type of diabetes is largely the result of excess body weight and physical inactivity.
+          <br>
+          Symptoms may be similar to those of type 1 diabetes but are often less marked. As a result, the disease may be diagnosed several years after onset, after complications have already arisen.
+          <br>
+          Until recently, this type of diabetes was seen only in adults but it is now also occurring increasingly frequently in children.
+        </p>
+        <h3>Symptoms</h3>
+        <p>
+          Some of the symptoms of type 1 diabetes and type 2 diabetes are:
+
+          Feeling more thirsty than usual,
+          Urinating often,
+          Losing weight without trying,
+          Presence of ketones in the urine. Ketones are a byproduct of the breakdown of muscle and fat that happens when there's not enough available insulin.
+          Feeling tired and weak,
+          Feeling irritable or having other mood changes,
+          Having blurry vision,
+          Having slow-healing sores,
+          Getting a lot of infections, such as gum, skin and vaginal infections.
+        </p>
+      </div>
+      <div class="about-black breast-cancer">
+        <h1>Breast Cancer</h1>
+        <h5>Breast cancer is cancer that forms in the cells of the breasts.</h5>
+        <p>
+          After skin cancer, breast cancer is the most common cancer diagnosed in women in the United States. Breast cancer can occur in both men and women, but it's far more common in women.
+          <br>
+          Substantial support for breast cancer awareness and research funding has helped create advances in the diagnosis and treatment of breast cancer. Breast cancer survival rates have increased, and the number of deaths associated with this disease is steadily declining, largely due to factors such as earlier detection, a new personalized approach to treatment and a better understanding of the disease.
+        </p>
+        
+        <h3>Symptoms</h3>
+        <p>
+          Signs and symptoms of breast cancer may include: 
+
+          A breast lump or thickening that feels different from the surrounding tissue, 
+          Change in the size, shape or appearance of a breast, 
+          Changes to the skin over the breast, such as dimpling, 
+          A newly inverted nipple, 
+          Peeling, scaling, crusting or flaking of the pigmented area of skin surrounding the nipple (areola) or breast skin, 
+          Redness or pitting of the skin over your breast, like the skin of an orange.
+        </p>
+      
+      </div>
+      <div class="about-white covid">
+        <h1>COVID-19</h1>
+        <h5>Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus.</h5>
+        <p>Most people infected with the virus will experience mild to moderate respiratory illness and recover without requiring special treatment. However, some will become seriously ill and require medical attention. Older people and those with underlying medical conditions like cardiovascular disease, diabetes, chronic respiratory disease, or cancer are more likely to develop serious illness. Anyone can get sick with COVID-19 and become seriously ill or die at any age. </p>
+        <h3>Symptoms</h3>
+        <p>COVID-19 affects different people in different ways. Most infected people will develop mild to moderate illness and recover without hospitalization.</p><p><strong>Most common symptoms:</strong></p>fever <br> cough<br>tiredness<br>loss of taste or smell.<br><p><strong>Less common symptoms:</strong></p>sore throat<br>headache<br>aches and pains<br>diarrhoea<br>a rash on skin, or discolouration of fingers or toes<br>red or irritated eyes.<br><div><br></div><p><strong>Serious symptoms:</strong></p>difficulty breathing or shortness of breath<br>loss of speech or mobility, or confusion<br>chest pain.<br><p>Seek immediate medical attention if you have serious symptoms.&nbsp; Always call before visiting your doctor or health facility.&nbsp;</p><p>People with mild symptoms who are otherwise healthy should manage their symptoms at home.&nbsp;</p><p>On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.&nbsp;</p><p>&nbsp;</p>
+      
+      </div>
+    </section>
+
+</body>
+</html>
