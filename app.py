@@ -67,7 +67,7 @@ def heart_result():
         result = "You're safe! There's a low chance you have a heart disease. But it's still good to stay away from oily food!"
         message = "Congratulations!"
 
-    return render_template("heart-result.html", prediction = result, alert = message=)
+    return render_template("heart-result.html", prediction = result, alert = message)
 
 
 if __name__ == ("__main__"):
